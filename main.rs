@@ -1,11 +1,9 @@
-mod arraytable;
-mod realtable;
-mod fibonacci;
-mod sorts;
+mod questao1;
+mod questao2;
+mod questao3;
 
-pub fn main() {
-    arraytable::run();
-    realtable::run();
-    fibonacci::run();
-    sorts::run();
+fn main() {
+    questao1::run();
+    //questao2::run();
+    //questao3::run();
 }
